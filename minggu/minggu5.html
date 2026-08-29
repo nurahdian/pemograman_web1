@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Minggu 5 - Pemrograman Web I</title>
+
+    <link rel="stylesheet"
+          href="../css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="container nav-content">
+
+
+            <a href="../index.html"
+               class="logo">
+
+                WEB<span>I</span>
+
+            </a>
+
+
+            <nav class="nav-menu"
+                 id="navMenu">
+
+                <a href="../index.html">
+                    Beranda
+                </a>
+
+                <a href="../pembelajaran.html"
+                   class="active">
+                    Pembelajaran
+                </a>
+
+                <a href="../praktikum.html">
+                    Praktikum
+                </a>
+
+                <a href="../project.html">
+                    Project
+                </a>
+
+                <a href="../refleksi.html">
+                    Refleksi
+                </a>
+
+                <a href="../profil.html">
+                    Profil
+                </a>
+
+            </nav>
+
+
+            <button class="menu-toggle"
+                    id="menuToggle">
+
+                ☰
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- HEADER -->
+
+    <section class="detail-header">
+
+        <div class="container">
+
+
+            <a href="../pembelajaran.html"
+               class="back-link">
+
+                ← Kembali ke Pembelajaran
+
+            </a>
+
+
+            <p class="subtitle">
+
+                MINGGU 05
+
+            </p>
+
+
+            <h1>
+
+                CSS Layout & Responsive Design
+
+            </h1>
+
+
+            <p>
+
+                Mempelajari teknik mengatur tata letak
+                halaman website dan membuat tampilan yang
+                dapat menyesuaikan berbagai ukuran layar.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CONTENT -->
+
+    <main class="detail-section">
+
+        <div class="container detail-layout">
+
+
+            <!-- KONTEN UTAMA -->
+
+            <article class="detail-content">
+
+
+                <!-- MATERI -->
+
+                <section class="content-block">
+
+                    <h2>
+
+                        01. Materi yang Dipelajari
+
+                    </h2>
+
+
+                    <p>
+
+                        Pada minggu kelima, saya mempelajari
+                        bagaimana mengatur tata letak elemen
+                        pada halaman website menggunakan CSS.
+                        Selain itu, saya juga mempelajari konsep
+                        responsive design.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            CSS Box Model
+                        </li>
+
+                        <li>
+                            Margin
+                        </li>
+
+                        <li>
+                            Padding
+                        </li>
+
+                        <li>
+                            Border
+                        </li>
+
+                        <li>
+                            Width dan Height
+                        </li>
+
+                        <li>
+                            CSS Flexbox
+                        </li>
+
+                        <li>
+                            CSS Grid
+                        </li>
+
+                        <li>
+                            Responsive Design
+                        </li>
+
+                        <li>
+                            Media Query
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+
+                <!-- PENJELASAN -->
+
+                <section class="content-block">
+
+                    <h2>
+
+                        02. Penjelasan
+
+                    </h2>
+
+
+                    <p>
+
+                        CSS Layout digunakan untuk mengatur
+                        posisi dan susunan elemen pada halaman
+                        website. Dengan layout yang baik,
+                        informasi dapat ditampilkan secara
+                        teratur dan mudah dibaca.
+
+                    </p>
+
+
+                    <p>
+
+                        Salah satu konsep dasar dalam layout
+                        CSS adalah Box Model. Setiap elemen
+                        HTML dapat dianggap sebagai sebuah kotak
+                        yang memiliki content, padding, border,
+                        dan margin.
+
+                    </p>
+
+
+                    <p>
+
+                        Selain Box Model, CSS menyediakan
+                        Flexbox dan Grid untuk membantu membuat
+                        layout yang lebih fleksibel.
+
+                    </p>
+
+
+                    <p>
+
+                        Responsive Design digunakan agar tampilan
+                        website dapat menyesuaikan ukuran layar,
+                        baik desktop, tablet, maupun smartphone.
+
+                    </p>
+
+                </section>
+
+
+
+                <!-- BOX MODEL -->
+
+                <section class="content-block">
+
+                    <h2>
+
+                        03. CSS Box Model
+
+                    </h2>
+
+
+                    <p>
+
+                        CSS Box Model terdiri dari beberapa
+                        bagian, yaitu content, padding, border,
+                        dan margin.
+
+                    </p>
+
+
+                    <div class="code-box">
+
+<pre><code>.box {
+
+    width: 300px;
+
+    padding: 20px;
+
+    border: 2px solid black;
+
+    margin: 20px;
+
+}</code></pre>
+
+                    </div>
+
+
+                    <p>
+
+                        Pada contoh tersebut, width digunakan
+                        untuk menentukan lebar content, padding
+                        memberikan jarak antara content dan
+                        border, sedangkan margin memberikan
+                        jarak dengan elemen lainnya.
+
+                    </p>
+
+                </section>
+
+
+
+                <!-- FLEXBOX -->
+
+                <section class="content-block">
+
+                    <h2>
+
+                        04. CSS Flexbox
+
+                    </h2>
+
+
+                    <p>
+
+                        Flexbox digunakan untuk mengatur elemen
+                        dalam satu dimensi, baik secara horizontal
+                        maupun vertikal.
+
+                    </p>
+
+
+                    <div class="code-box">
+
+<pre><code>.container {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+}</code></pre>
+
+                    </div>
+
+
+                    <p>
+
+                        Property display: flex digunakan untuk
+                        mengaktifkan Flexbox. Sedangkan
+                        justify-content dan align-items digunakan
+                        untuk mengatur posisi elemen.
+
+                    </p>
+
+                </section>
+
+
+
+                <!-- GRID -->
+
+                <section class="content-block">
+
+                    <h2>
+
+                        05. CSS Grid
+
+                    </h2>
+
+
+                    <p>
+
+                        CSS Grid digunakan untuk membuat layout
+                        berbentuk baris dan kolom sehingga cocok
+                        digunakan untuk membuat card atau
+                        struktur halaman website.
+
+                    </p>
+
+
+                    <div class="code-box">
+
+<pre><code>.grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+
+}</code></pre>
+
+                    </div>
+
+                </section>
+
+
+
+                <!-- RESPONSIVE -->
+
+                <section class="content-block">
+
+                    <h2>
+
+                        06. Responsive Design
+
+                    </h2>
+
+
+                    <p>
+
+                        Responsive Design merupakan teknik
+                        membuat website agar dapat menyesuaikan
+                        tampilan berdasarkan ukuran layar
+                        perangkat yang digunakan.
+
+                    </p>
+
+
+                    <p>
+
+                        Salah satu cara membuat website responsive
+                        adalah menggunakan Media Query.
+
+                    </p>
+
+
+                    <div class="code-box">
+
+<pre><code>@media (max-width: 600px) {
+
+    .container {
+
+        width: 90%;
+
+    }
+
+    .grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}</code></pre>
+
+                    </div>
+
+
+                    <p>
+
+                        Ketika lebar layar kurang dari atau sama
+                        dengan 600px, layout dapat diubah menjadi
+                        satu kolom sehingga lebih nyaman digunakan
+                        pada smartphone.
+
+                    </p>
+
+                </section>
+
+
+
+                <!-- HASIL PEMBELAJARAN -->
+
+                <section class="content-block">
+
+                    <h2>
+
+                        07. Hasil Pembelajaran
+
+                    </h2>
+
+
+                    <p>
+
+                        Setelah mempelajari CSS Layout dan
+                        Responsive Design, saya dapat mengatur
+                        posisi berbagai elemen pada halaman
+                        website dan membuat tampilan yang
+                        menyesuaikan ukuran layar.
+
+                    </p>
+
+
+                    <div class="result-box">
+
+                        <strong>
+
+                            ✓ Yang Saya Pahami
+
+                        </strong>
+
+
+                        <p>
+
+                            Saya memahami penggunaan Box Model,
+                            Flexbox, Grid, dan Media Query untuk
+                            membuat layout website yang rapi
+                            dan responsive.
+
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+
+                <!-- KESIMPULAN -->
+
+                <section class="content-block">
+
+                    <h2>
+
+                        08. Kesimpulan
+
+                    </h2>
+
+
+                    <p>
+
+                        CSS Layout sangat penting dalam
+                        pengembangan website karena membantu
+                        mengatur posisi dan susunan elemen.
+                        Dengan menggunakan Flexbox, Grid, dan
+                        Media Query, website dapat memiliki
+                        tampilan yang terstruktur dan responsive
+                        pada berbagai perangkat.
+
+                    </p>
+
+                </section>
+
+
+
+                <!-- NAVIGASI -->
+
+                <div class="week-navigation">
+
+
+                    <a href="minggu4.html"
+                       class="btn btn-secondary">
+
+                        ← Minggu 4
+
+                    </a>
+
+
+                    <a href="minggu6.html"
+                       class="btn btn-primary">
+
+                        Minggu 6 →
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+
+            <!-- SIDEBAR -->
+
+            <aside class="detail-sidebar">
+
+
+                <div class="sidebar-card">
+
+
+                    <p class="sidebar-label">
+
+                        PEMBELAJARAN
+
+                    </p>
+
+
+                    <h3>
+
+                        Minggu 5
+
+                    </h3>
+
+
+                    <ul class="sidebar-menu">
+
+
+                        <li class="current">
+
+                            CSS Layout
+
+                        </li>
+
+
+                        <li>
+
+                            Box Model
+
+                        </li>
+
+
+                        <li>
+
+                            Flexbox
+
+                        </li>
+
+
+                        <li>
+
+                            CSS Grid
+
+                        </li>
+
+
+                        <li>
+
+                            Responsive Design
+
+                        </li>
+
+
+                        <li>
+
+                            Media Query
+
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="sidebar-card">
+
+
+                    <p class="sidebar-label">
+
+                        TEKNOLOGI
+
+                    </p>
+
+
+                    <div class="tag-container">
+
+                        <span>
+                            CSS
+                        </span>
+
+                        <span>
+                            Flexbox
+                        </span>
+
+                        <span>
+                            Grid
+                        </span>
+
+                        <span>
+                            Responsive
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+
+            <p>
+
+                © 2026 Pemrograman Web I
+
+            </p>
+
+
+            <p>
+
+                Website Pembelajaran Mahasiswa
+
+            </p>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

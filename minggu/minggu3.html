@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minggu 3 - Pemrograman Web I</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-content">
+
+            <a href="../index.html" class="logo">
+                WEB<span>I</span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="../index.html">
+                    Beranda
+                </a>
+
+                <a href="../pembelajaran.html" class="active">
+                    Pembelajaran
+                </a>
+
+                <a href="../praktikum.html">
+                    Praktikum
+                </a>
+
+                <a href="../project.html">
+                    Project
+                </a>
+
+                <a href="../refleksi.html">
+                    Refleksi
+                </a>
+
+                <a href="../profil.html">
+                    Profil
+                </a>
+
+            </nav>
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- HEADER -->
+    <section class="detail-header">
+
+        <div class="container">
+
+            <a href="../pembelajaran.html" class="back-link">
+                ← Kembali ke Pembelajaran
+            </a>
+
+            <p class="subtitle">
+                MINGGU 03
+            </p>
+
+            <h1>
+                HTML Lanjutan
+            </h1>
+
+            <p>
+                Mempelajari penggunaan tabel, form, link,
+                gambar, dan elemen HTML untuk membuat halaman
+                website yang lebih terstruktur.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTENT -->
+    <main class="detail-section">
+
+        <div class="container detail-layout">
+
+
+            <!-- KONTEN UTAMA -->
+            <article class="detail-content">
+
+
+                <!-- MATERI -->
+                <section class="content-block">
+
+                    <h2>
+                        01. Materi yang Dipelajari
+                    </h2>
+
+                    <p>
+                        Pada minggu ketiga, saya mempelajari
+                        beberapa elemen HTML yang digunakan untuk
+                        membuat halaman website menjadi lebih
+                        lengkap dan interaktif.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            HTML Table
+                        </li>
+
+                        <li>
+                            HTML Form
+                        </li>
+
+                        <li>
+                            Link atau Hyperlink
+                        </li>
+
+                        <li>
+                            Menampilkan gambar
+                        </li>
+
+                        <li>
+                            Input pada form
+                        </li>
+
+                        <li>
+                            Button
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+                <!-- PENJELASAN -->
+                <section class="content-block">
+
+                    <h2>
+                        02. Penjelasan
+                    </h2>
+
+                    <p>
+                        Tabel pada HTML digunakan untuk
+                        menampilkan data dalam bentuk baris
+                        dan kolom. Elemen seperti
+                        <strong>table</strong>,
+                        <strong>tr</strong>,
+                        <strong>th</strong>, dan
+                        <strong>td</strong> digunakan untuk
+                        membuat struktur tabel.
+                    </p>
+
+                    <p>
+                        Selain tabel, HTML menyediakan form
+                        yang dapat digunakan untuk membuat
+                        formulir input. Form dapat berisi
+                        berbagai jenis input seperti teks,
+                        email, password, radio button,
+                        checkbox, dan button.
+                    </p>
+
+                    <p>
+                        HTML juga memungkinkan kita menambahkan
+                        link dan gambar ke dalam halaman website.
+                        Link digunakan untuk berpindah ke halaman
+                        atau website lain, sedangkan gambar
+                        digunakan untuk menampilkan visual
+                        pada halaman.
+                    </p>
+
+                </section>
+
+
+                <!-- CONTOH TABLE -->
+                <section class="content-block">
+
+                    <h2>
+                        03. Contoh HTML Table
+                    </h2>
+
+                    <p>
+                        Contoh sederhana pembuatan tabel
+                        menggunakan HTML:
+                    </p>
+
+                    <div class="code-box">
+
+<pre><code>&lt;table border="1"&gt;
+
+    &lt;tr&gt;
+        &lt;th&gt;Nama&lt;/th&gt;
+        &lt;th&gt;Kelas&lt;/th&gt;
+        &lt;th&gt;Nilai&lt;/th&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+        &lt;td&gt;Andi&lt;/td&gt;
+        &lt;td&gt;TI01&lt;/td&gt;
+        &lt;td&gt;85&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+        &lt;td&gt;Budi&lt;/td&gt;
+        &lt;td&gt;TI01&lt;/td&gt;
+        &lt;td&gt;90&lt;/td&gt;
+    &lt;/tr&gt;
+
+&lt;/table&gt;</code></pre>
+
+                    </div>
+
+                </section>
+
+
+                <!-- CONTOH FORM -->
+                <section class="content-block">
+
+                    <h2>
+                        04. Contoh HTML Form
+                    </h2>
+
+                    <p>
+                        Form digunakan untuk membuat tempat
+                        pengguna memasukkan data.
+                    </p>
+
+                    <div class="code-box">
+
+<pre><code>&lt;form&gt;
+
+    &lt;label&gt;Nama:&lt;/label&gt;
+
+    &lt;input type="text"
+           placeholder="Masukkan nama"&gt;
+
+    &lt;br&gt;&lt;br&gt;
+
+    &lt;label&gt;Email:&lt;/label&gt;
+
+    &lt;input type="email"
+           placeholder="Masukkan email"&gt;
+
+    &lt;br&gt;&lt;br&gt;
+
+    &lt;button type="submit"&gt;
+        Kirim
+    &lt;/button&gt;
+
+&lt;/form&gt;</code></pre>
+
+                    </div>
+
+                </section>
+
+
+                <!-- LINK DAN GAMBAR -->
+                <section class="content-block">
+
+                    <h2>
+                        05. Link dan Gambar
+                    </h2>
+
+                    <p>
+                        HTML dapat digunakan untuk menambahkan
+                        hyperlink dan gambar ke dalam halaman.
+                    </p>
+
+                    <div class="code-box">
+
+<pre><code>&lt;a href="https://example.com"&gt;
+    Kunjungi Website
+&lt;/a&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;img src="gambar.jpg"
+     alt="Contoh Gambar"
+     width="300"&gt;</code></pre>
+
+                    </div>
+
+                </section>
+
+
+                <!-- HASIL PEMBELAJARAN -->
+                <section class="content-block">
+
+                    <h2>
+                        06. Hasil Pembelajaran
+                    </h2>
+
+                    <p>
+                        Setelah mempelajari materi minggu ketiga,
+                        saya dapat menggunakan berbagai elemen
+                        HTML untuk membuat halaman website yang
+                        lebih lengkap dan terstruktur.
+                    </p>
+
+                    <div class="result-box">
+
+                        <strong>
+                            ✓ Yang Saya Pahami
+                        </strong>
+
+                        <p>
+                            Saya dapat membuat tabel sederhana,
+                            membuat form input, menambahkan link,
+                            serta menampilkan gambar menggunakan
+                            HTML.
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- KESIMPULAN -->
+                <section class="content-block">
+
+                    <h2>
+                        07. Kesimpulan
+                    </h2>
+
+                    <p>
+                        HTML tidak hanya digunakan untuk membuat
+                        teks dan judul, tetapi juga dapat digunakan
+                        untuk menyusun data menggunakan tabel,
+                        membuat formulir, menambahkan gambar,
+                        dan membuat navigasi melalui hyperlink.
+                        Dengan memahami elemen-elemen tersebut,
+                        halaman website dapat dibuat lebih
+                        informatif dan terstruktur.
+                    </p>
+
+                </section>
+
+
+                <!-- NAVIGASI -->
+                <div class="week-navigation">
+
+                    <a href="minggu2.html"
+                       class="btn btn-secondary">
+                        ← Minggu 2
+                    </a>
+
+                    <a href="minggu4.html"
+                       class="btn btn-primary">
+                        Minggu 4 →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SIDEBAR -->
+            <aside class="detail-sidebar">
+
+                <div class="sidebar-card">
+
+                    <p class="sidebar-label">
+                        PEMBELAJARAN
+                    </p>
+
+                    <h3>
+                        Minggu 3
+                    </h3>
+
+                    <ul class="sidebar-menu">
+
+                        <li class="current">
+                            HTML Lanjutan
+                        </li>
+
+                        <li>
+                            Table
+                        </li>
+
+                        <li>
+                            Form
+                        </li>
+
+                        <li>
+                            Link
+                        </li>
+
+                        <li>
+                            Gambar
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="sidebar-card">
+
+                    <p class="sidebar-label">
+                        TEKNOLOGI
+                    </p>
+
+                    <div class="tag-container">
+
+                        <span>HTML</span>
+                        <span>Table</span>
+                        <span>Form</span>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Pemrograman Web I
+            </p>
+
+            <p>
+                Website Pembelajaran Mahasiswa
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Minggu 4 - Pemrograman Web I</title>
+
+    <link rel="stylesheet"
+          href="../css/style.css">
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="container nav-content">
+
+            <a href="../index.html"
+               class="logo">
+
+                WEB<span>I</span>
+
+            </a>
+
+
+            <nav class="nav-menu"
+                 id="navMenu">
+
+                <a href="../index.html">
+                    Beranda
+                </a>
+
+                <a href="../pembelajaran.html"
+                   class="active">
+                    Pembelajaran
+                </a>
+
+                <a href="../praktikum.html">
+                    Praktikum
+                </a>
+
+                <a href="../project.html">
+                    Project
+                </a>
+
+                <a href="../refleksi.html">
+                    Refleksi
+                </a>
+
+                <a href="../profil.html">
+                    Profil
+                </a>
+
+            </nav>
+
+
+            <button class="menu-toggle"
+                    id="menuToggle">
+
+                ☰
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- HEADER -->
+
+    <section class="detail-header">
+
+        <div class="container">
+
+            <a href="../pembelajaran.html"
+               class="back-link">
+
+                ← Kembali ke Pembelajaran
+
+            </a>
+
+
+            <p class="subtitle">
+                MINGGU 04
+            </p>
+
+
+            <h1>
+                Dasar-Dasar CSS
+            </h1>
+
+
+            <p>
+                Mempelajari CSS untuk mengatur tampilan,
+                warna, ukuran, dan tata letak halaman website.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CONTENT -->
+
+    <main class="detail-section">
+
+        <div class="container detail-layout">
+
+
+            <!-- KONTEN UTAMA -->
+
+            <article class="detail-content">
+
+
+                <!-- MATERI -->
+
+                <section class="content-block">
+
+                    <h2>
+                        01. Materi yang Dipelajari
+                    </h2>
+
+
+                    <p>
+                        Pada minggu keempat, saya mempelajari
+                        CSS atau Cascading Style Sheets yang
+                        digunakan untuk mengatur tampilan
+                        halaman website.
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Pengertian CSS
+                        </li>
+
+                        <li>
+                            Fungsi CSS
+                        </li>
+
+                        <li>
+                            CSS Inline
+                        </li>
+
+                        <li>
+                            CSS Internal
+                        </li>
+
+                        <li>
+                            CSS External
+                        </li>
+
+                        <li>
+                            Selector CSS
+                        </li>
+
+                        <li>
+                            Property dan Value
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+
+                <!-- PENJELASAN -->
+
+                <section class="content-block">
+
+                    <h2>
+                        02. Penjelasan
+                    </h2>
+
+
+                    <p>
+                        CSS atau Cascading Style Sheets merupakan
+                        bahasa yang digunakan untuk mengatur
+                        tampilan dan desain halaman website.
+                        Dengan CSS, halaman HTML yang sebelumnya
+                        hanya memiliki struktur dapat dibuat
+                        menjadi lebih menarik dan mudah digunakan.
+                    </p>
+
+
+                    <p>
+                        CSS dapat digunakan untuk mengatur berbagai
+                        hal seperti warna teks, ukuran huruf,
+                        background, jarak antar elemen, border,
+                        posisi elemen, hingga tata letak halaman.
+                    </p>
+
+
+                    <p>
+                        Berdasarkan cara penggunaannya, CSS dapat
+                        ditulis menggunakan tiga cara, yaitu
+                        Inline CSS, Internal CSS, dan External CSS.
+                    </p>
+
+                </section>
+
+
+
+                <!-- JENIS CSS -->
+
+                <section class="content-block">
+
+                    <h2>
+                        03. Jenis-Jenis CSS
+                    </h2>
+
+
+                    <h3>
+                        Inline CSS
+                    </h3>
+
+                    <p>
+                        CSS ditulis langsung pada elemen HTML
+                        menggunakan atribut style.
+                    </p>
+
+
+                    <div class="code-box">
+
+<pre><code>&lt;p style="color: blue;"&gt;
+    Belajar CSS
+&lt;/p&gt;</code></pre>
+
+                    </div>
+
+
+                    <h3>
+                        Internal CSS
+                    </h3>
+
+                    <p>
+                        CSS ditulis di dalam tag
+                        <strong>&lt;style&gt;</strong>
+                        pada bagian head HTML.
+                    </p>
+
+
+                    <div class="code-box">
+
+<pre><code>&lt;style&gt;
+
+    p {
+        color: blue;
+        font-size: 18px;
+    }
+
+&lt;/style&gt;</code></pre>
+
+                    </div>
+
+
+                    <h3>
+                        External CSS
+                    </h3>
+
+                    <p>
+                        CSS dibuat dalam file terpisah kemudian
+                        dihubungkan dengan halaman HTML.
+                    </p>
+
+
+                    <div class="code-box">
+
+<pre><code>&lt;link rel="stylesheet"
+      href="style.css"&gt;</code></pre>
+
+                    </div>
+
+                </section>
+
+
+
+                <!-- SELECTOR -->
+
+                <section class="content-block">
+
+                    <h2>
+                        04. CSS Selector
+                    </h2>
+
+
+                    <p>
+                        Selector digunakan untuk menentukan
+                        elemen HTML yang akan diberikan style.
+                        Beberapa selector dasar yang dipelajari
+                        antara lain selector elemen, class,
+                        dan id.
+                    </p>
+
+
+                    <div class="code-box">
+
+<pre><code>/* Selector elemen */
+
+p {
+    color: black;
+}
+
+
+/* Selector class */
+
+.judul {
+    font-size: 30px;
+}
+
+
+/* Selector id */
+
+#header {
+    background: blue;
+}</code></pre>
+
+                    </div>
+
+                </section>
+
+
+
+                <!-- PROPERTY -->
+
+                <section class="content-block">
+
+                    <h2>
+                        05. Property dan Value
+                    </h2>
+
+
+                    <p>
+                        Dalam CSS, property digunakan untuk
+                        menentukan bagian tampilan yang ingin
+                        diubah, sedangkan value menentukan
+                        nilai dari property tersebut.
+                    </p>
+
+
+                    <div class="code-box">
+
+<pre><code>h1 {
+    color: blue;
+    font-size: 32px;
+    text-align: center;
+}</code></pre>
+
+                    </div>
+
+
+                    <p>
+                        Pada contoh tersebut, color digunakan
+                        untuk mengatur warna teks, font-size
+                        untuk ukuran huruf, dan text-align
+                        untuk mengatur posisi teks.
+                    </p>
+
+                </section>
+
+
+
+                <!-- HASIL PEMBELAJARAN -->
+
+                <section class="content-block">
+
+                    <h2>
+                        06. Hasil Pembelajaran
+                    </h2>
+
+
+                    <p>
+                        Setelah mempelajari CSS, saya dapat
+                        mengubah tampilan halaman HTML dengan
+                        memberikan warna, ukuran, jarak,
+                        dan pengaturan teks menggunakan CSS.
+                    </p>
+
+
+                    <div class="result-box">
+
+                        <strong>
+                            ✓ Yang Saya Pahami
+                        </strong>
+
+
+                        <p>
+                            Saya memahami fungsi CSS dan dapat
+                            menggunakan Inline, Internal, maupun
+                            External CSS untuk mengatur tampilan
+                            halaman website.
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+
+                <!-- KESIMPULAN -->
+
+                <section class="content-block">
+
+                    <h2>
+                        07. Kesimpulan
+                    </h2>
+
+
+                    <p>
+                        CSS merupakan bagian penting dalam
+                        pengembangan website karena digunakan
+                        untuk mengatur tampilan halaman.
+                        Dengan menggunakan CSS, website dapat
+                        memiliki tampilan yang lebih menarik,
+                        teratur, dan nyaman untuk digunakan.
+                    </p>
+
+                </section>
+
+
+
+                <!-- NAVIGASI -->
+
+                <div class="week-navigation">
+
+
+                    <a href="minggu3.html"
+                       class="btn btn-secondary">
+
+                        ← Minggu 3
+
+                    </a>
+
+
+                    <a href="minggu5.html"
+                       class="btn btn-primary">
+
+                        Minggu 5 →
+
+                    </a>
+
+
+                </div>
+
+            </article>
+
+
+
+            <!-- SIDEBAR -->
+
+            <aside class="detail-sidebar">
+
+
+                <div class="sidebar-card">
+
+                    <p class="sidebar-label">
+                        PEMBELAJARAN
+                    </p>
+
+
+                    <h3>
+                        Minggu 4
+                    </h3>
+
+
+                    <ul class="sidebar-menu">
+
+                        <li class="current">
+                            Dasar-Dasar CSS
+                        </li>
+
+                        <li>
+                            Inline CSS
+                        </li>
+
+                        <li>
+                            Internal CSS
+                        </li>
+
+                        <li>
+                            External CSS
+                        </li>
+
+                        <li>
+                            Selector CSS
+                        </li>
+
+                        <li>
+                            Property & Value
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="sidebar-card">
+
+                    <p class="sidebar-label">
+                        TEKNOLOGI
+                    </p>
+
+
+                    <div class="tag-container">
+
+                        <span>CSS</span>
+
+                        <span>HTML</span>
+
+                        <span>Design</span>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Pemrograman Web I
+            </p>
+
+
+            <p>
+                Website Pembelajaran Mahasiswa
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
